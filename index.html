@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+
+<body>
+<!-- Navbar -->
+<header>
+    <nav>
+        <div class="nav-left">
+            <div class="nav-left-left">
+                <div class="hamburgericon" id="menu-icon">
+                    <i class="fas fa-bars menuIcon"></i>
+                    <i class="fas fa-times closeIcon" style="display: none"></i>
+                </div>
+                <a href="#" class="logo-a"><img src="./assets/logo.png" alt="Delicious" class="logo"></a>
+                <div class="left-text-lg">
+                    <div class="nav-recipes"><a href="#" class="menuItem">Recipes</a></div>
+                    <div class="nav-articles"><a href="#" class="menuItem">Articles</a></div>
+                    <div class="nav-news"><a href="#" class="menuItem">Food News</a></div>
+                    <div class="nav-explore"><a href="#" class="menuItem">Explore More</a></div>
+                </div>
+                <div class="left-text">
+                    <div class="nav-recipes"><a href="#" class="menuItem">Recipes</a></div>
+                    <div class="nav-articles"><a href="#" class="menuItem">Articles</a></div>
+                    <div class="nav-news"><a href="#" class="menuItem">Food News</a></div>
+                    <div class="nav-explore"><a href="#" class="menuItem">Explore More</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-right">
+            <a href="#" class="subscribe">SUBSCRIBE</a>
+            <a href="#" class="signin">SIGN IN</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Search bar -->
+<div class="search">
+    <div class="search-menu">
+        <div class="search-bar">
+            <img src="./assets/search-icon.png" alt="search" class="search-icon">
+            <div class="form">
+                <form action="">
+                    <input type="text" class="form-input" id="search" value="">
+                </form>
+            </div>
+            <button class="search-btn" id="search-button">SEARCH</button>
+        </div>
+        <div id="search-suggest">
+        <!-- Search results here.. -->
+        </div>
+    </div>
+</div>
+
+<!-- Container main -->
+<div class="container-main">
+    <div id="cards-container">
+    <!-- Recipe cards here.. -->
+    </div>
+</div>
+
+
+<script src="index.js"></script>
+<script src="search.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
